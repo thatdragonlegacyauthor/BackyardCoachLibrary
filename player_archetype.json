@@ -1,0 +1,59 @@
+{
+  "player_archetype_synergy": {
+    "name": "The Predictive Conductor",
+    "description": "A specialist playstyle that treats each match as a musical composition, focusing on controlling tempo, reading the opponent's rhythm, and composing a victory through calculated risks and adaptive strategy. This archetype plays the opponent as much as the character.",
+    "set_strategy": {
+      "name": "The Three-Match Symphony",
+      "match_1": {
+        "phase_name": "The Opening Gambit - Aggressive Download",
+        "objective": "To steal a quick victory with high-risk, predictive aggression while aggressively downloading the opponent's panic responses and defensive habits.",
+        "tactics":
+      },
+      "matches_2_and_3": {
+        "phase_name": "The Adaptive Pivot - Patient Execution",
+        "objective": "Pivot to a patient, reactive, and punish-heavy style based on the intelligence gathered in Match 1.",
+        "tactics":
+      }
+    },
+    "advanced_tactics":
+      },
+      {
+        "name": "Wings of Light as a Psychological Weapon",
+        "description": "Using the 10-second startup of 'Wings of Light' not as a primary damage tool, but as a gambit to force the opponent into a predictable, panicked approach.",
+        "application": "Activate from a safe distance to put the opponent on a mental timer, then use the 'downloaded' knowledge of their habits to prepare the perfect counter-play (e.g., preemptive Ice Spike for ground approaches, 2H for aerial approaches)."
+      }
+    ]
+  },
+  "matchup_data": {
+    "vs_sin_kiske": {
+      "difficulty": "Unfavorable",
+      "summary": "Sin's 'Elk Hunt' special bypasses zoning and his high-damage pressure exploits Dizzy's weak defense. The matchup requires extreme patience and precise punishment.",
+      "key_opponent_moves":,
+      "dizzy_gameplan": "Play a patient, punish-heavy style. Use long-range normals to bait a response and be ready to throw Elk Hunt on reaction. Do not try to proactively zone him out."
+    },
+    "vs_bridget": {
+      "difficulty": "Volatile",
+      "summary": "Bridget excels at looping setplay with her yo-yo. The key is to survive her initial pressure and exploit her weaknesses.",
+      "key_opponent_mechanics":,
+      "dizzy_gameplan": "Exploit her very low health; your punishes are more impactful. Use FD to survive her initial setplay. Once the yo-yo returns, her pressure is 'fake' and you can challenge her attempts to reset it."
+    },
+    "vs_millia_rage": {
+      "difficulty": "Unfavorable",
+      "summary": "A 'glass cannon' matchup. Millia aims for one knockdown to start her 'blender' oki. Your goal is to control the air and prevent her from ever getting started.",
+      "key_opponent_moves":,
+      "dizzy_gameplan": "Establish air superiority. Use preemptive 'P-Fish' (22P) to control air space and a disciplined '2H' to anti-air her approaches. Do not let her get a knockdown."
+    },
+    "vs_unika": {
+      "difficulty": "Even / Skill-Dependent",
+      "summary": "Unika has excellent mid-range pokes similar to Ky Kiske, but suffers from slow movement. The strategy is to out-range her and control the ground.",
+      "key_opponent_weakness":,
+      "dizzy_gameplan": "Hold the mid-to-long range and control the screen with projectiles. Do not challenge her in the air. Bait her slow approach and be ready to punish with Ice Spike for a full conversion."
+    },
+    "vs_potemkin": {
+      "difficulty": "Manageable (Post-Patch 1.48)",
+      "summary": "This matchup was fundamentally altered by a balance patch. Previously unplayable, it is now a manageable encounter against a slow, powerful grappler.",
+      "key_patch_change":,
+      "dizzy_gameplan": "Maintain distance and use your projectiles to control space. Be aware of his ability to reflect projectiles with 'F.D.B.' and be ready to punish his slow movement and recovery on whiffed moves."
+    }
+  }
+}

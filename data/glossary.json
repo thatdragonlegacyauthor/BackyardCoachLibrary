@@ -80,4 +80,42 @@
       "term": "Armor",
       "definition": "A property that allows a character to absorb one or more hits without being interrupted or put into hitstun. The character still takes damage."
     }
+    },
+  "common_fgc_terms": {
+    "okizeme": {
+      "term": "Okizeme (Oki)",
+      "definition": "A Japanese term for applying pressure to an opponent as they are getting up from a knockdown."
+    },
+    "meaty": {
+      "term": "Meaty",
+      "definition": "An attack timed to be active on the very first frame an opponent wakes up, forcing them to block or use an invincible reversal."
+    },
+    "safe_jump": {
+      "term": "Safe Jump",
+      "definition": "A specific type of meaty jumping attack that allows the attacker to land and block before an opponent's invincible reversal can punish them."
+    },
+    "frame_trap": {
+      "term": "Frame Trap",
+      "definition": "An offensive technique of intentionally leaving a small gap in a blockstring to bait and counter-hit an opponent's interruption attempt."
+    },
+    "mix_up": {
+      "term": "Mix-up",
+      "definition": "An offensive situation that forces the opponent to guess between multiple attack options, such as High/Low or Strike/Throw."
+    },
+    "dp": {
+      "term": "DP (Dragon Punch)",
+      "definition": "A universal term for a special move with invincibility on startup, used as a reversal. Named after the Shoryuken from Street Fighter."
+    },
+    "reversal": {
+      "term": "Reversal",
+      "definition": "An action performed on the first possible frame after recovering from a non-neutral state, typically an invincible attack."
+    },
+    "tick_throw": {
+      "term": "Tick Throw",
+      "definition": "A strategy of performing a light, safe-on-block attack immediately followed by a throw to catch a blocking opponent."
+    },
+    "fuzzy": {
+      "term": "Fuzzy",
+      "definition": "A high-level defensive technique involving rapidly inputting multiple guard options to cover several mix-up possibilities."
+    }
 }

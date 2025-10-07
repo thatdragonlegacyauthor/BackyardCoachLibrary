@@ -1,0 +1,31 @@
+{
+  "advanced_concepts": {
+    "attack_level": {
+      "term": "Attack Level",
+      "definition": "A property of a strike (typically 0-4) that determines the duration of hitstun, blockstun, and hitstop. Higher levels generally result in more advantage for the attacker.",
+      "scale": [
+        {"level": 0, "description": "Lowest stun properties."},
+        {"level": 1, "description": "Low stun, typical for light punches."},
+        {"level": 2, "description": "Medium stun, typical for kicks and some slashes."},
+        {"level": 3, "description": "High stun, typical for heavy slashes."},
+        {"level": 4, "description": "Highest stun, typical for powerful specials or charged normals."}
+      ]
+    },
+    "counter_hit": {
+      "term": "Counter Hit (CH)",
+      "definition": "Occurs when an attack connects during the startup or active frames of an opponent's attack.",
+      "effects":,
+      "types": {
+        "standard_ch": {
+          "name": "Standard Counter Hit",
+          "description": "A regular counter hit with standard damage and hitstun bonuses."
+        },
+        "risc_ch": {
+          "name": "R.I.S.C. Counter Hit",
+          "condition": "Occurs when an attack hits an opponent with a full R.I.S.C. Gauge.",
+          "effect": "Triggers the strongest possible Counter Hit state and deals an additional 10% damage on top of the standard CH bonus."
+        }
+      }
+    }
+  }
+}

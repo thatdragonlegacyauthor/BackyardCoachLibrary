@@ -1,0 +1,42 @@
+{
+  "character_name": "Queen Dizzy",
+  "release_date": "2024-10-31",
+  "archetype": "Dynamic Zoner/Setplay Hybrid",
+  "lore_summary": "A half-Gear and the daughter of Justice and Sol Badguy. Raised in isolation, she is a gentle, pacifistic queen who fears her immense, world-ending power. Her gameplay is a direct reflection of this, with her sentient wings, Necro (violent instinct) and Undine (self-preservation), executing powerful attacks that she mechanically holds back.",
+  "design_philosophy": "A 'reluctant wielder of power.' Her mechanics are intentionally designed to reflect her lore. Her most powerful abilities are thematically flawed, creating a unique strategic challenge where the player must not only defeat the opponent but also overcome the character's inherent disadvantages.",
+  "strengths": [
+    "Excellent full-screen control with a wide variety of projectiles.",
+    "Large, disjointed normals that are effective at controlling space in neutral.",
+    "High damage potential on counter-hits, especially from 'clean' starters.",
+    "Excels at frustrating and punishing impatient opponents from a distance.",
+    "Possesses unique setplay potential with 'Fish' and 'Ice Field' mechanics after securing a knockdown."
+  ],
+  "weaknesses":,
+  "core_mechanics": {
+    "generosity_paradox": {
+      "name": "The Generosity Paradox",
+      "description": "Dizzy's core design flaw where her most powerful setup tool, the 'Freeze' state, actively benefits the opponent.",
+      "trigger": "Inflicted by 'I used this to catch fish' (236S/H) or the third hit of 5H.",
+      "effect": "Instantly maximizes the combo's gravity and damage scaling upon application.",
+      "consequences":
+    },
+    "knockdown_hierarchy": {
+      "name": "The Hierarchy of Knockdowns",
+      "description": "A strategic concept prioritizing knockdowns that do not trigger the Generosity Paradox.",
+      "types":
+        }
+      ]
+    },
+    "tension_balance_synergy": {
+      "name": "The Tension Balance Virtuous Cycle",
+      "description": "A hidden system mechanic that Dizzy is structurally optimized to exploit, equalizing the Generosity Paradox over the long term.",
+      "mechanic": "The hidden 'Tension Balance' (TB) gauge increases with aggressive actions and, most significantly, with Tension Meter expenditure (Overdrives, Roman Cancels).",
+      "thresholds": {
+        "activation": 25000,
+        "reset_value": 12500
+      },
+      "effect": "Triggers 'Positive Bonus' for 10 seconds, granting rapid Tension regeneration and other buffs.",
+      "synergy": "Dizzy's heavy reliance on meter for defense (YRC, FD) and offense (PRC throw combos) makes her one of the fastest characters at building TB, turning her defensive spending into a long-term investment for an overwhelming offensive state."
+    }
+  }
+}

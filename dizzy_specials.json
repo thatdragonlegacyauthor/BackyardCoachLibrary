@@ -1,16 +1,42 @@
 {
   "moveset": {
-    "specials":,
-        "patch_notes": "A post-launch patch more than doubled the active frames of the attack, making it a more effective gimmick for catching opponents off guard."
+    "specials": [
+      {
+        "input": "236S / 236H",
+        "name": "I used this to catch fish",
+        "common_name": "Ice Spike / Ice Pillar",
+        "type": "Special",
+        "function": "Long-Range Punish / Combo Starter",
+        "properties": [
+          "Summons an ice pillar at different distances (S is closer, H is farther).",
+          "Inflicts 'Freeze' state on hit, enabling full-screen combo conversions.",
+          "Very slow startup with a distinct audio/visual cue, making it highly punishable on block or whiff."
+        ],
+        "patch_notes": "Active frames were more than doubled in a patch, making it a more effective gimmick for catching opponents off guard."
       },
       {
         "input": "During 236S/H",
         "name": "Ice Field",
         "type": "Special (Follow-up)",
         "function": "Setplay / Combo Extender",
-        "properties":"
+        "properties": [
+          "Dissipates the ice pillar to cover the ground in a slippery field, altering movement for both players.",
+          "A knockdown on the ice causes it to shatter for untechable damage, guaranteeing a setup.",
+          "A throw on the ice guarantees a combo into another Ice Spike, creating a pressure loop."
         ],
         "patch_notes": "Patches 1.43 and 1.44 fixed numerous bugs related to unintended high-speed movement and interactions with other characters' Overdrives."
+      },
+      {
+        "input": "236H (Strive)",
+        "name": "For searing cod",
+        "common_name": "Fire Pillar",
+        "type": "Special",
+        "function": "Pressure Tool",
+        "properties": [
+          "Summons Necro's fire pillar.",
+          "Highly plus on block, making it a core tool for maintaining offensive pressure in blockstrings."
+        ],
+        "patch_notes": null
       },
       {
         "input": "22P / 22K",
@@ -18,7 +44,11 @@
         "common_name": "Fish",
         "type": "Special",
         "function": "Okizeme / Setplay",
-        "properties":"
+        "properties": [
+          "Summons a slow-moving biting projectile.",
+          "P version targets aerial opponents; K version stays grounded.",
+          "Both can be on screen simultaneously.",
+          "Extremely slow startup makes it useless in neutral, but it is the cornerstone of her post-knockdown pressure (oki)."
         ],
         "patch_notes": null
       },
@@ -27,7 +57,9 @@
         "name": "Michael Sword",
         "type": "Special",
         "function": "Zoning / Space Control",
-        "properties":"
+        "properties": [
+          "S version is a fast, mid-range projectile for poking.",
+          "H version is a slower, full-screen slash that causes a 'tumble state' on hit, allowing for combo follow-ups."
         ],
         "patch_notes": "The S version was patched to cause a knockdown on hit, transforming it from a simple poke into a valuable 'Clean' knockdown tool."
       },
@@ -39,7 +71,7 @@
         "function": "Projectile Nullification / Neutral",
         "properties": [
           "Creates a lingering hitbox that destroys incoming projectiles.",
-          "Pre-patch, it was very slow and punishable even on success.[2]"
+          "Pre-patch, it was very slow and punishable even on success."
         ],
         "patch_notes": "Buffed significantly in Ver. 1.43. It is now a much stronger and more reliable neutral tool that causes a knockdown. Associated 'corner loops' used for safely setting up Wings of Light were removed."
       }

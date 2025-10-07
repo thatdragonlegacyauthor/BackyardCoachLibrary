@@ -47,5 +47,37 @@
       "definition": "An attack that, when blocked, has enough recovery frames for the opponent to land a guaranteed counter-attack (a 'punish')."
     }
   },
-  "hitbox_terms": {}
+  "hitbox_terms": {
+    "hitbox": {
+      "term": "Hitbox",
+      "definition": "The invisible area of an attack that can deal damage. Typically represented by a red box.",
+      "color_code": "Red"
+    },
+    "hurtbox": {
+      "term": "Hurtbox",
+      "definition": "The invisible area that defines where a character can be hit. Typically represented by a green box.",
+      "color_code": "Green"
+    },
+    "counter_hit_hurtbox": {
+      "term": "Counter Hit Hurtbox",
+      "definition": "A hurtbox, typically present during a move's startup or active frames, that will trigger a Counter Hit if struck. Typically represented by a cyan box.",
+      "color_code": "Cyan"
+    },
+    "disjoint": {
+      "term": "Disjoint",
+      "definition": "A highly advantageous property where a move's hitbox extends significantly beyond the character's own hurtbox, allowing it to hit from a range where it cannot be hit back."
+    },
+    "invincibility": {
+      "term": "Invincibility (Invuln)",
+      "definition": "A state where a character's hurtbox is temporarily removed, making them immune to being hit. Can be full or attribute-specific.",
+      "types":
+    },
+    "low_profile": {
+      "term": "Low Profile",
+      "definition": "A property where a move's animation lowers the character's hurtbox enough to go under high-hitting attacks, causing them to whiff."
+    },
+    "armor": {
+      "term": "Armor",
+      "definition": "A property that allows a character to absorb one or more hits without being interrupted or put into hitstun. The character still takes damage."
+    }
 }

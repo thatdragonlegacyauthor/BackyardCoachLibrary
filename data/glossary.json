@@ -1,0 +1,21 @@
+{
+  "frame_data_terms": {
+    "frame": {
+      "term": "Frame",
+      "definition": "The base unit of time measurement in the game, equal to 1/60th of a second. All move properties are measured in frames."
+    },
+    "startup": {
+      "term": "Startup Frames",
+      "definition": "The number of frames from the input of an attack until the first active frame. The move cannot hit during this phase."
+    },
+    "active": {
+      "term": "Active Frames",
+      "definition": "The number of frames during which an attack's hitbox is present and can connect with an opponent."
+    },
+    "recovery": {
+      "term": "Recovery Frames",
+      "definition": "The number of frames after the last active frame, during which the character is returning to a neutral state and is unable to act."
+    }
+  },
+  "hitbox_terms": {}
+}

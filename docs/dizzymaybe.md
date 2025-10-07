@@ -1,7 +1,3 @@
-Of course. Synthesizing all available data—from core design philosophy and community analysis to the most recent patch notes—is the key to creating a truly definitive strategy. Here is the complete game plan for mastering Queen Dizzy in *Guilty Gear Strive*.
-
-***
-
 ### **The Specialist's Symphony: A Complete Game Plan for Queen Dizzy**
 
 To play Dizzy is to conduct a symphony of patience. She is not a character of brute force but of strategic orchestration, a reflection of her lore as a pacifist queen wielding immense, reluctant power.[1, 2] Her design is a series of intentional paradoxes, and victory is found not by fighting her nature, but by mastering it. This plan synthesizes all available intelligence into a comprehensive strategy for turning her thematic weaknesses into your greatest strengths.

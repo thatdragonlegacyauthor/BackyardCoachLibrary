@@ -1,0 +1,60 @@
+{
+  "game_title": "Guilty Gear -Strive-",
+  "frame_rate": 60,
+  "resources": {
+    "tension_gauge": {
+      "max_value": 10000,
+      "roman_cancel_cost": 5000,
+      "overdrive_cost": 5000,
+      "faultless_defense_drain_rate": "variable"
+    },
+    "burst_gauge": {
+      "max_value": 100,
+      "psych_burst_cost": 100,
+      "wild_assault_cost": 50,
+      "deflect_shield_cost": 50
+    },
+    "risc_gauge": {
+      "max_value": 100,
+      "decay_rate": "variable",
+      "on_full": "Next hit is a guaranteed Counter Hit of the highest level."
+    }
+  },
+  "universal_mechanics": {
+    "roman_cancel": {
+      "cost": 5000,
+      "types": {
+        "red": {
+          "condition": "On hit/block",
+          "effect": "Launches opponent, enables combo extension."
+        },
+        "blue": {
+          "condition": "During neutral state",
+          "effect": "Slows down opponent, enables mix-ups and movement."
+        },
+        "purple": {
+          "condition": "During recovery of a whiffed move",
+          "effect": "Cancels recovery animation, makes moves safe."
+        },
+        "yellow": {
+          "condition": "During blockstun",
+          "effect": "Pushes opponent back, defensive escape."
+        }
+      }
+    },
+    "wall_break": {
+      "effect": "Deals bonus damage and transitions stage.",
+      "reward": "Positive Bonus",
+      "positive_bonus_effect": "Rapid Tension Gauge regeneration."
+    },
+    "faultless_defense": {
+      "input": "Block + 2 attack buttons (not D)",
+      "effect": "Increases pushback, negates chip damage and R.I.S.C. gain.",
+      "cost": "Tension Gauge drain"
+    },
+    "instant_block": {
+      "input": "Block immediately before impact",
+      "effect": "Reduces blockstun, increases Tension gain."
+    }
+  }
+}

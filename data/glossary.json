@@ -16,6 +16,36 @@
       "term": "Recovery Frames",
       "definition": "The number of frames after the last active frame, during which the character is returning to a neutral state and is unable to act."
     }
+    "frame_advantage": {
+      "term": "Frame Advantage",
+      "definition": "The time difference, measured in frames, that determines which character can act first after an attack connects or is blocked."
+    },
+    "on_block": {
+      "term": "On-Block Advantage",
+      "definition": "The frame advantage after an attack is blocked. A positive value means the attacker can act first; a negative value means the defender can act first."
+    },
+    "on_hit": {
+      "term": "On-Hit Advantage",
+      "definition": "The frame advantage after an attack hits. A positive value allows the attacker to link into another attack, creating a combo."
+    },
+    "plus_frames": {
+      "term": "Plus",
+      "symbol": "+",
+      "definition": "A state of positive frame advantage where the attacker recovers before the defender and can continue their turn."
+    },
+    "minus_frames": {
+      "term": "Minus",
+      "symbol": "-",
+      "definition": "A state of negative frame advantage where the defender recovers before the attacker and can take their turn."
+    },
+    "safe_on_block": {
+      "term": "Safe",
+      "definition": "An attack that, when blocked, recovers quickly enough that the opponent cannot land a guaranteed punish."
+    },
+    "unsafe_on_block": {
+      "term": "Unsafe / Punishable",
+      "definition": "An attack that, when blocked, has enough recovery frames for the opponent to land a guaranteed counter-attack (a 'punish')."
+    }
   },
   "hitbox_terms": {}
 }
